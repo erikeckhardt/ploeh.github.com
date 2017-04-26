@@ -58,4 +58,25 @@ Gog</div>
 		</div>
 		<div class="comment-date">2016-09-11 08:07 UTC</div>
 	</div>
+	
+		<div class="comment">
+		<div class="comment-author"><a href="https://github.com/erikeckhardt">Erik Eckhardt</a></div>
+		<div class="comment-content">
+			<p>
+				ReSharper is a tool that does static code analysis with near-instant feedback. It provides all the same errors as compiling will, plus all sorts of errors, warnings, and suggestions (the level is configurable) that when listened to can prevent bugs that normally would only be detectable at runtime:
+			</p>
+			<ul>
+				<li>You didn't use a declared variable.</li>
+				<li>A parameter marked [NotNull] is being passed a guaranteed null object.</li>
+				<li>A nullable object is undergoing member access without proper null checking.</li>
+				<li>A textual reference to a view name has no corresponding view name.</li>
+				<li>Unreachable code is detected.</li>
+				<li>And dozens, or even hundreds, more.</li>
+			</ul>
+			<p>
+				It's true that not every one of these warnings is indicative of a problem. One can configure to ignore the issue entirely, or can trigger the placement of a comment to suppress the warning in the future. This takes some small management effort, but I cannot tell you how many times that a simple warning such as "variable is never assigned after declaring" has saved me from only finding out about a bug at a much later phase.
+			</p>
+		</div>
+		<div class="comment-date">2017-04-26 18:45 UTC</div>
+	</div>
 </div>
